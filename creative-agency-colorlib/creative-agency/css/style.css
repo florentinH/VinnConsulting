@@ -27,6 +27,7 @@ Table OF Contents
 12 > Team
 13 > Blog
     > Blog service
+    > Blog fonds
 14 > Blog post
 15 > Blog sidebar
 16 > Contact
@@ -610,6 +611,7 @@ header {
     float: right;
     background: transparent;
     margin-bottom: 0px;
+    font-size: 13px;
 }
 
 .header-wrapper .breadcrumb .breadcrumb-item.active {
@@ -830,7 +832,7 @@ header {
 }
 
 .service:hover h3 {
-    color: #fff;
+    color: #073079;
 }
 
 /*------------------------------------*\
@@ -849,6 +851,13 @@ header {
     margin-right: 5px;
 }
 
+.portrait {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
 /*------------------------------------*\
 	Numbers
 \*------------------------------------*/
@@ -864,6 +873,11 @@ header {
 .number i {
     color: #6195FF;
     font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.number .icon-img {
+    width: 38px;
     margin-bottom: 20px;
 }
 
@@ -1184,6 +1198,14 @@ header {
     color: #fff;
 }
 
+
+/*------------------------------------*\
+	Blog fonds
+\*------------------------------------*/
+
+.conclusion-fonds {
+    margin-top: 30px;
+}
 
 
 /*------------------------------------*\
