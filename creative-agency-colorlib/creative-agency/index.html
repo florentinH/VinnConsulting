@@ -395,7 +395,7 @@
 
 				<!-- Section-header -->
 				<div class="section-header text-center">
-					<h2 class="title">Me contacter</h2>
+					<h2 class="title">Contacter-moi</h2>
 				</div>
 				<!-- /Section-header -->
 
@@ -441,8 +441,12 @@
 				<!-- contact form -->
 				<div class="col-md-8 col-md-offset-2">
 					<form class="contact-form">
-						<input type="text" class="input" placeholder="Nom">
-						<input type="email" class="input" placeholder="Email">
+						<input type="text" class="input" placeholder="Prénom">
+						<input type="tel" 
+							class="input" 
+							pattern="^(?:0|\(?\+33\)?\s?|0033\s?)[1-79](?:[\.\-\s]?\d\d){4}$" 
+							placeholder="Téléphone">
+						<input type="email" class="input" HREF="vincent@vinn-consulting.fr" placeholder="Email">
 						<input type="text" class="input" placeholder="Sujet">
 						<textarea class="input" placeholder="Message"></textarea>
 						<button class="main-btn">Envoyer message</button>
